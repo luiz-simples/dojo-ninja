@@ -1,0 +1,28 @@
+{
+    "autoload": {
+        "psr-4": { "Dojo\\": "src/" }
+    },
+    "autoload-dev": {
+        "psr-4": { "Dojo\\Tests\\": "tests/" }
+    },
+    "name": "oncast/dojo-ninja",
+    "description": "Dojo com Soacialbase",
+    "require": {
+        "ext-xdebug": ">=2.1.4",
+        "phpmd/phpmd" : "@stable",
+        "squizlabs/php_codesniffer": "1.*",
+        "phpunit/phpunit": "~4.3",
+        "phpunit/php-code-coverage": "~2.0",
+        "phpunit/phpunit-mock-objects": "~2.3",
+        "php": "~5.5",
+        "phplint/phplint": "~0.0",
+        "php/skeleton": "~0.3",
+        "composer/composer": "1.0.0-alpha8"
+    },
+    "authors": [
+        {
+            "name": "Luiz Amorim",
+            "email": "luiz.simples@gmail.com"
+        }
+    ]
+}
